@@ -25,7 +25,7 @@ form.addEventListener("submit", async (e) => {
   form.reset();
 });
 
-// Simulating async operation with Promise
+
 const fakeSendMessage = ({ name, email, message }) => {
   return new Promise((resolve) => {
     console.log("Sending message...", { name, email, message });
